@@ -1,3 +1,5 @@
-name: Your New Jekyll Site
+name: Kelley Collision
 markdown: redcarpet
 pygments: true
+
+baseurl: http://kelley.imor.tl
