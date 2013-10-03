@@ -16,32 +16,38 @@
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">{{ site.name }}</a>
             </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <script src="{{ site.baseurl }}/js/jquery-2.0.3.min.js"></script>
-        <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+        <div class="container">
+          {{ content }}
+        </div>
+
+        <div class="footer">
+          &copy; 2013, Kelley Collision Center &bull; 550 NE 1st Ave &bull; Hallendale Beach, FL 33009
+        </div>
+
+        <script src="/js/jquery-2.0.3.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/kelley.js"></script>
     </body>
 </html>
