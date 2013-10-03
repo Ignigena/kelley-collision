@@ -1,35 +1,42 @@
 ---
 layout: default
 ---
-<div id="carousel" class="carousel slide">
-  <div class="carousel-inner">
-  	{% for slide in page.slides %}
-    <div class="item{% if forloop.index == 1 %} active{% endif %}">
-      <img src="/images/slides/{{ slide.image }}" alt="{{ slide.alt }}" />
+<div class="carousel-wrapper">
+  <div class="container">
+    <div id="carousel" class="carousel slide">
+      <div class="carousel-inner">
+      	{% for slide in page.slides %}
+        <div class="item{% if forloop.index == 1 %} active{% endif %}">
+          <img src="/images/slides/{{ slide.image }}" alt="{{ slide.alt }}" />
+        </div>
+        {% endfor %}
+      </div>
+      <a class="left carousel-control" href="#carousel" data-slide="prev"><span class="icon-prev"></span></a>
+      <a class="right carousel-control" href="#carousel" data-slide="next"><span class="icon-next"></span></a>
     </div>
-    {% endfor %}
   </div>
-  <a class="left carousel-control" href="#carousel" data-slide="prev"><span class="icon-prev"></span></a>
-  <a class="right carousel-control" href="#carousel" data-slide="next"><span class="icon-next"></span></a>
 </div>
-<div class="row">
-  <div class="col-md-7">
-    <div class="promo-buttons">
-    	<a class="btn btn-danger btn-lg">Accident Assistance »</a>
-    	<a class="btn btn-primary btn-lg">Collision 101 »</a>
-    </div>
 
-  	<div class="content">
-  		{{ content }}
-  	</div>
-  </div>
-  <div class="col-md-5">
-  	<iframe src="http://a.tiles.mapbox.com/v3/ignigena.map-56ima8sr.html#14/25.99168669851277/-80.15313863754272" class="mapbox"></iframe>
-    <div class="contact">
-      <h4>550 NE 1st Ave <small>Hallendale Beach, FL</small></h4>
-      <h3><strong>(954) 455-8855</strong></h3>
-      <p>M-Fr 7:30AM-6PM; Sat 8AM - 2PM</p>
-      <img src="/images/certifications.png" alt="Kelley Collision Center certifications." />
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="promo-buttons">
+      	<a class="btn btn-danger btn-lg">Accident Assistance »</a>
+      	<a class="btn btn-primary btn-lg">Collision 101 »</a>
+      </div>
+
+    	<div class="content">
+    		{{ content }}
+    	</div>
+    </div>
+    <div class="col-md-5">
+    	<iframe src="http://a.tiles.mapbox.com/v3/ignigena.map-56ima8sr.html#14/25.99168669851277/-80.15313863754272" class="mapbox"></iframe>
+      <div class="contact">
+        <h4>550 NE 1st Ave <small>Hallendale Beach, FL</small></h4>
+        <h3><strong>(954) 455-8855</strong></h3>
+        <p>M-Fr 7:30AM-6PM; Sat 8AM - 2PM</p>
+        <img src="/images/certifications.png" alt="Kelley Collision Center certifications." />
+      </div>
     </div>
   </div>
 </div>

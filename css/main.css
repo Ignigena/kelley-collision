@@ -10,8 +10,15 @@ body .container {
   max-width: 970px;
 }
 
-#carousel {
+.carousel-wrapper {
+  background: rgba(0,0,0,0.9);
   margin-bottom: 20px;
+}
+.carousel-wrapper .icon-prev {
+  margin-left: -70px;
+}
+.carousel-wrapper .icon-next {
+  margin-left: 40px;
 }
 
 .promo-buttons {
