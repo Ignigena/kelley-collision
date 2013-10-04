@@ -20,7 +20,7 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-md-7">
-    {% if page.title %}
+    {% if page.title and page.subtitle %}
       <h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1>
     {% else %}
       <div class="promo-buttons">
