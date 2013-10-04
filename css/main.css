@@ -36,6 +36,10 @@ body .container {
   border: 0;
 }
 
+.page-contact .mapbox {
+  margin-top: 30px;
+}
+
 .contact {
   text-align: center;
 }
