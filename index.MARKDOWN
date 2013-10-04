@@ -8,6 +8,8 @@ slides:
     alt: The Truth About Save Your Deductible
 ---
 
-**Kelley Collision Center** lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+As a leader in the collision industry, **Kelley Collision Center** is dedicated to making sound decisions in the best interest of our customers, employees and busines partners.
+
+Kelley Collision Center's facility boasts 35,000 sq. ft. of production area.  Our shop is equipped with 4 Garmat heated, down draft prep stations as well as 2 Garmat down draft booths.  We have 4 frame machines and 3 electric lifts.
 
 ![Schedule a Repair](/images/schedule_repair.png)
