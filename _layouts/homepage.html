@@ -20,10 +20,14 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-md-7">
+    {% if page.title %}
+      <h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1>
+    {% else %}
       <div class="promo-buttons">
       	<a class="btn btn-danger btn-lg">Accident Assistance »</a>
       	<a class="btn btn-primary btn-lg">Collision 101 »</a>
       </div>
+    {% endif %}
 
     	<div class="content">
     		{{ content }}
