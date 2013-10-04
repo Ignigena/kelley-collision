@@ -38,6 +38,9 @@
 
         <div class="footer">
           &copy; 2013, Kelley Collision Center &bull; 550 NE 1st Ave &bull; Hallendale Beach, FL 33009
+          <br />
+          <br />
+          <a href="/">Home</a>{% for link in site.navigation %}<a href="{{ link.url }}">{{ link.text }}</a>{% endfor %}
         </div>
 
         <script src="{{ site.baseurl }}/js/jquery-2.0.3.min.js"></script>
