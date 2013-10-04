@@ -3,3 +3,15 @@ markdown: redcarpet
 pygments: true
 
 baseurl: http://kelley.imor.tl
+
+navigation:
+  - text: About
+    url: /about
+  - text: Services
+    url: /services
+  - text: Blog
+    url: /blog
+  - text: Gallery
+    url: /gallery
+  - text: Contact Us
+    url: /contact
