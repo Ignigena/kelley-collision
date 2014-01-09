@@ -14,10 +14,14 @@ body .container {
   max-width: 970px;
 }
 
-body .container .side-image img {
+body .container.side-image img {
   float: right;
   padding-left: 20px;
   margin-bottom: -20px;
+}
+
+body .container.side-image h1 {
+  margin-top: 30px;
 }
 
 .carousel-wrapper {
