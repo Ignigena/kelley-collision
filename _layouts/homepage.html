@@ -8,7 +8,9 @@ layout: default
       <div class="carousel-inner">
       	{% for slide in page.slides %}
         <div class="item{% if forloop.index == 1 %} active{% endif %}">
+          {% if slide.link %}<a href="{{ slide.link }}" title="{{ slide.alt }}">{% endif %}
           <img src="/images/slides/{{ slide.image }}" alt="{{ slide.alt }}" />
+          {% if slide.link %}</a>{% endif %}
         </div>
         {% endfor %}
       </div>
