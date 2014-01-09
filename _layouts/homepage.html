@@ -43,6 +43,11 @@ layout: default
         <p>M-Fr 7:30AM-6PM; Sat 8AM - 2PM</p>
         <img src="/images/certifications.png" alt="Kelley Collision Center certifications." />
       </div>
+      <div class="promos">
+      {% for promo in page.promos %}
+        <p><a class="btn btn-primary btn-lg" href="{{ promo.link }}">{{ promo.title }}</a></p>
+      {% endfor %}
+      </div>
     </div>
   </div>
 </div>
