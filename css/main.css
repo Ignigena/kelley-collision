@@ -24,6 +24,10 @@ body .container.side-image h1 {
   margin-top: 30px;
 }
 
+.page-gallery h1 {
+  margin-bottom: 20px;
+}
+
 .carousel-wrapper {
   background: rgba(0,0,0,0.9);
   margin-bottom: 20px;
@@ -42,6 +46,14 @@ body .container.side-image h1 {
 
 .content img {
   padding-top: 15px;
+}
+
+.page-gallery .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.container .col-md-4.content {
+  padding: 20px;
 }
 
 .mapbox {

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1>
+  <div class="row">
+    <div class="col-md-4 content">
+      {{ content }}
+    </div>
+    {% for gallery in page.gallery %}
+    <div class="col-md-4">
+      <div class="twentytwenty-container">
+        <img src="/images/gallery/{{ gallery }}-before.jpg" />
+        <img src="/images/gallery/{{ gallery }}-after.jpg" />
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
