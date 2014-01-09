@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
-        <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+        <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     <body class="page-{{ page.id }}">
 
@@ -43,8 +43,8 @@
           <a href="/">Home</a>{% for link in site.navigation %}<a href="{{ link.url }}">{{ link.text }}</a>{% endfor %}
         </div>
 
-        <script src="{{ site.baseurl }}/js/jquery-2.0.3.min.js"></script>
-        <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-        <script src="{{ site.baseurl }}/js/kelley.js"></script>
+        <script src="/js/jquery-2.0.3.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/kelley.js"></script>
     </body>
 </html>

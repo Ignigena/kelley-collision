@@ -2,8 +2,6 @@ name: Kelley Collision Center
 markdown: redcarpet
 pygments: true
 
-baseurl: http://kelley.imor.tl
-
 navigation:
   - text: About
     url: /about
