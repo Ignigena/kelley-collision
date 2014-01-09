@@ -1,5 +1,6 @@
 ---
-layout: inner
+layout: inner-sideimage
+image: about.jpg
 title: About Us
 subtitle: Why Great Service is No Accident
 ---
