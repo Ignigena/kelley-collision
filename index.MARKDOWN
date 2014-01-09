@@ -1,4 +1,5 @@
 ---
+id: front
 layout: homepage
 title: Great Service is No Accident at Kelley Collision Center!
 slides:
