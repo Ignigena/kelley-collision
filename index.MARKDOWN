@@ -12,4 +12,4 @@ As a leader in the collision industry, **Kelley Collision Center** is dedicated 
 
 Kelley Collision Center's facility boasts 35,000 sq. ft. of production area.  Our shop is equipped with 4 Garmat heated, down draft prep stations as well as 2 Garmat down draft booths.  We have 4 frame machines and 3 electric lifts.
 
-![Schedule a Repair](/images/schedule_repair.png)
+[![Schedule a Repair](/images/schedule_repair.png)](/contact)
